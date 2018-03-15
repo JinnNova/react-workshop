@@ -32,10 +32,14 @@ const Popup = styled.div`
   }
 `;
 
+const MyHeading = styled.h1`
+  color: #FF00FF;
+`;
+
 export default ({ onClose }) => (
   <Overlay>
     <Popup>
-      <h1>Test popup</h1>
+      <MyHeading>Test popup</MyHeading>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
