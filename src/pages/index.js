@@ -10,7 +10,7 @@ import Card from "../components/Card";
 
 export default class Index extends React.Component { 
   render(){
-    <Card title="My Title" imageUrl="https://www.petmd.com/sites/default/files/petmd-cat-happy-10.jpg"></Card>
+    return (<Card title="My Title" imageUrl="https://www.petmd.com/sites/default/files/petmd-cat-happy-10.jpg"></Card>)
   }
 };
 
